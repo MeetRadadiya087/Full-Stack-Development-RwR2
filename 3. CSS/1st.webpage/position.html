@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+.nav{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: aqua;
+    position: fixed;
+    z-index: 1;
+}
+.main1{
+    width: 60%;
+    height: 808px;
+    border: 1px solid black;
+    background-color: lavender;
+    position: relative;
+    top: 100px;
+}
+.a1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.a2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.a22{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(101, 101, 205);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.a3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: chartreuse;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.a4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: darkblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main2{
+    width: 60%;
+    height: 800px;
+    border: 1px solid black;
+    background-color: aqua;
+    position: relative;
+    margin-top: 110px;
+}
+/* .b1{
+    width: 25%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+.b1 p{
+    width: 25%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    position: sticky;
+    overflow: scroll;
+}
+</style>
+<body>
+    <div class="nav" align="center">
+        <h1>NAVBAR</h1>
+    </div>
+    <center>
+        <div class="main1">
+            <p>
+                main1  relative
+            </p>
+            <div class="a1">
+                <p>
+                    a1  absolute
+                </p>
+            </div>
+            <div class="a2">
+                <p>
+                    a2  absolute
+                </p>
+            </div>
+            <div class="a22">
+                <p>
+                    sticky
+                </p>
+            </div>
+            <div class="a3">
+                <p>
+                    a3  absolute
+                </p>
+            </div>
+            <div class="a4">
+                <p>
+                    a4  absolute
+                </p>
+            </div>
+        </div>                              <br><br><br><br>
+
+        <div class="main2">
+            <h1>overflow</h1>
+            <div class="b1">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias expedita tenetur at nesciunt consequatur harum deleniti animi, rerum minima deserunt blanditiis excepturi eaque cumque, ipsum saepe veniam aliquam odit! Libero.
+                    Voluptatibus maiores, id assumenda atque odio ipsam, labore et quidem quae quia dolor voluptate officiis tenetur repellat. Quam ad placeat illo. Ex, perferendis. Nemo asperiores voluptas suscipit fugit! Illo, repudiandae.
+                    Blanditiis labore vero id, asperiores, temporibus eius voluptate ea architecto nisi saepe quibusdam ipsam nobis quos accusantium distinctio quasi quia quo ipsum qui alias ex ab quam praesentium! Similique, est.
+                    Dolorem itaque quisquam enim accusamus, illum voluptatibus? Illo voluptates, libero debitis molestias corporis quas reiciendis inventore impedit quisquam illum dicta dignissimos enim, doloremque velit eveniet! Voluptatibus, perspiciatis. Vero, vitae qui.
+                    Obcaecati culpa eveniet, iste, saepe dignissimos quidem, debitis rerum voluptate placeat odit repellat. Reprehenderit quo sapiente tempore, saepe minima ratione ut porro veniam doloribus rem eum expedita obcaecati, magnam officia.
+                    Inventore, necessitatibus odit non id hic perferendis voluptatibus odio laboriosam nihil? Iusto esse et voluptatum minus dolores dolor animi expedita aliquid? Facilis dolorem accusamus perspiciatis neque nobis, quos alias quod.
+                    Nam accusamus, obcaecati reiciendis recusandae vel pariatur in maxime enim impedit molestiae alias aliquid placeat sit sunt aut praesentium reprehenderit repudiandae. Dolorum ad reiciendis, quaerat perferendis adipisci enim nihil est.
+                    Provident veritatis porro ratione nihil, unde cupiditate dolorem quas incidunt sint doloremque cum sequi vitae vel iure nostrum quos? Aspernatur unde eius ea nostrum officia molestiae ut necessitatibus eaque iure.
+                    Magni impedit nesciunt suscipit. Tenetur itaque natus corporis recusandae voluptates necessitatibus? Omnis, quis? Est maiores facilis vitae fugiat nihil voluptatem quos repudiandae cumque accusamus, natus, dicta sint itaque cupiditate optio?
+                    Id maxime quibusdam rerum. Maxime corrupti nihil vitae soluta magnam voluptate doloremque voluptatem dolorum expedita, eaque nam fuga, qui ut aliquid temporibus eius nobis quas in iusto ullam repudiandae! Error?
+                </p>
+            </div>
+        </div>
+    </center>
+</body>
+</html>

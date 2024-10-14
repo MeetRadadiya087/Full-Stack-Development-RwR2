@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+.a1{
+    width: 1000px;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 10px;
+    background-image: url(https://media.assettype.com/rajexpress/2023-02/ffac5be6-50f7-4647-8a31-fd40373bda88/IMG_20230215_WA0000.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true);
+    border: 2px solid black;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.a1 h1{
+    padding-left: 75%;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.a1 p{
+    margin-left: 75%;
+    text-indent: 45px;
+}
+.b1{
+    width: 1000px;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 30px;
+    background: rgb(255,89,0);
+    background: linear-gradient(157deg, rgba(255,89,0,1) 16%, rgba(255,255,255,1) 32%, rgba(57,230,54,1) 48%, rgba(255,89,0,1) 64%, rgba(255,240,240,1) 80%, rgba(48,255,0,1) 100%);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    margin-top: 180px;
+}
+.c1{
+    width: 1000px;
+    height: 400px;
+    margin-left: 25%;
+    border: 10px dotted black;
+    background: linear-gradient
+    color(black red green blue);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+.d1{
+    width: 1000px;
+    height: 400px;
+    margin-left: 25%;
+    border: 10px double black;
+    background-image: url(https://www.adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg);
+    background: linear-gradient;
+    background-position: center;
+    margin-top: 30px;
+}
+.e1{
+    margin-block: 50px;
+}

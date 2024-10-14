@@ -1,0 +1,53 @@
+.main1{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url(https://cdn.pixabay.com/photo/2024/01/25/12/30/forest-8531787_1280.jpg);
+    background-size: fill;
+    position: relative;
+}
+
+.main1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.695);
+    transition: 2s;
+    opacity: 0;
+    
+}
+.main1:hover::before{
+    transition: 2s;
+    cursor: pointer;
+    opacity: 1;
+
+}
+.main2{
+   margin-top: 50px;
+}
+.main2 a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 40px;
+    position: relative;
+
+}
+.main2 a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.695);
+    transition: 1s;
+    border-radius: 5px;
+
+}
+.main2 a:hover::after{
+    width: 100%;
+    transition: 1s;
+}

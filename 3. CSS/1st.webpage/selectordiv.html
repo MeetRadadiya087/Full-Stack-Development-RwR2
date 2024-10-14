@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Selectordiv</title>
+</head>
+<style>
+    .a::first-letter{
+        color: red;
+        font-size: 100px;
+    }
+    .b::first-line{
+        color: blue;
+        font-size: larger;
+    }
+    .c::selection{
+        color: darkcyan;
+        background-color: black;
+    }
+    p:first-child{
+        color: blueviolet;
+    }
+    p:last-child{
+        color: chartreuse;
+    }
+    p:nth-child(6){
+        color: darkcyan;
+    }
+    p:nth-last-child(6){
+        color: maroon;
+    }
+</style>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    
+        <p class="a">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    
+        <p class="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    
+        <p class="c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse necessitatibus adipisci possimus perspiciatis vel ducimus aperiam fugit delectus voluptates quam ex excepturi debitis ipsa, iusto perferendis vero? Sequi, voluptate provident?</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd-EXAM</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<!-- <p>​In this task, you need to design a navigation bar with dropdown submenus. They will utilize CSS properties to control the positioning of the submenus, their visibility, and how they respond when users hover over navigation items.</p> -->
+
+
+    <style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar{
+        width: 100%;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        /* border: 1px solid black; */
+        background-color: rgb(166, 163, 163);
+        position: static;
+        top: 0;
+    }
+    .navbar img{
+        width: 186px;
+        height: 44.38px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        padding-right: 150px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .navbar ul a{
+        text-decoration: none;
+        font-size: 20px;
+
+        margin-inline: 10px;
+        position: relative;
+
+    }
+    .navbar ul a::after{
+        content: "";
+        width: 0%;
+        height: 4px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.695);
+        transition: 1s;
+        /* border-radius: 5px; */
+    }
+    .navbar ul a:hover::after{
+        width: 100%;
+        transition: 0.4s;
+    }
+    .navbar button{
+        background-color: rgb(232, 18, 22);
+        color: white;
+        width: 123.78px;
+        margin-left: 400px;
+        height: 48px;
+        transition: 0.4s;
+    }
+
+    .navbar button:hover{ 
+        background-color: rgb(19, 225, 0);
+    }
+
+
+
+    </style>
+
+
+
+    <nav>
+
+        <div class="navbar">
+
+            <img src="https://assets-global.website-files.com/6549d990d48ee8452e5d6850/6549d990d48ee8452e5d68d4_logo.png" alt="">
+
+            <ul>
+
+                <a href="https://tnc-autowash-ecommerce.webflow.io/ ">Home</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/about">About Us</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/services">Services</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/gallery">Gallery</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/pricing">Pricing</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/testimonials">Testimonials</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/shop">Shop</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/blogs">Blogs</a>
+                <a href="https://tnc-autowash-ecommerce.webflow.io/contact">Contact</a>
+
+            </ul>
+
+                <select BRACH  style="margin-left: 50px; background-color: antiquewhite;" >
+
+                    <option>  AHMEDABAD</option>
+                    <option> RAJKOT </option>
+                    <option> SURAT  </option>
+                    
+                </select>                          
+
+            <button>
+
+                <i class="fa-solid fa-cart-shopping"></i>&nbsp; &nbsp;Cart
+
+            </button>
+
+        </div>
+
+    </nav>
+
+</html>
