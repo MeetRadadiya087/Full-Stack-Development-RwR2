@@ -1,0 +1,819 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* margin-top: 25px; */
+    float: right;
+    top: 0;
+    position: relative;
+}
+
+
+
+
+
+
+.left-1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.icon i{
+    font-size: 18px;
+    margin-left: 50px;
+    /* margin-top: 10px; */
+}
+
+
+
+
+
+/* .input-1{
+    margin-bottom: -32px;
+} */
+
+
+
+
+
+
+.input-1 input{
+    width: 234px;
+    height: 40.5px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(196,205,213);
+    border-radius: 8px;
+    bottom: 8px; 
+    padding-left: 25px;
+    margin-left: 50px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.bell-icon i{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(241,245,249);
+    border-radius: 50%;
+
+    font-size: 20px;
+
+    font-weight: lighter;
+
+    margin-left: -150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-icon img{
+    width: 40px;
+    height: 40px;
+    /* background-color: rgb(196,205,213); */
+    border-radius: 50%;
+
+    font-size: 20px;
+
+    margin-left: -100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is sidebar */
+
+
+
+
+.sidebar{
+    overflow: scroll;
+    width: 15%;
+    height: 1000PX;
+    border: 1px solid black;
+    background-color: rgb(33,43,54);
+    margin-left: -20%;
+    top: 0;
+    position: fixed;
+    /* top: 65px; */
+    display: block;
+    /* margin-left: -20%; */
+}
+
+
+
+
+
+.img-1st{
+    width: 287px;
+    height: 70px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.img-1st img{
+    width: 80px;
+    height: 32px;
+    padding: 20px 25px 25px;
+}
+
+
+
+
+
+/* This is a-links of sidebar */
+
+.a-dashboard{
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.a-dashboard a{
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a-layouts-pages{
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+    letter-spacing: 2px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+.a-layouts-pages a{
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    color: rgb(69,78,88);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .a-pages{
+    width: 287px;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+.accordion-a1{
+    height: auto;
+    /* border: 1px solid orange; */
+    margin: -20px 0px;
+}
+
+/* .accordion-a1 .btn{
+    background-color: lime;
+} */
+
+
+/* .accordion-a2 .btn{
+    background-color: purple;
+} */
+
+.accordion-a2{
+    /* margin: -20px 0px; */
+    height: auto;
+    /* border: 1px solid orange; */
+    margin: -20px 0px;
+}
+
+
+
+
+
+/* .accordion-1{
+    width: 100%;
+    height: 45px;
+} */
+
+
+
+
+
+
+/* .accordion-a1{
+    width: 287px;
+    height: 45px;
+    color: rgb(69,78,88);
+    background-color: transparent;
+}
+
+
+
+#a-1st, #a-2nd, #a-3rd{
+    width: 287px;
+    height: 45px;
+    color: rgb(69,78,88);
+    background-color: transparent;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+.accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  } */
+  
+
+
+
+
+
+
+
+
+/* ////    Pages    //// */
+
+
+
+.btn{
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+    color: rgb(145,158,171);
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+
+
+.mod .smenu{
+    width: 287px;
+    height: 45px;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    color: rgb(145,158,171);
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+   
+}
+
+
+/* .mod #m1, #m2, #m3, #m4, #m5 {
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+}  */
+
+
+
+.mod #m1, #m2, #m3, #m4, #m5 a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    color: rgb(145,158,171);
+    background-color: rgb(33,43,54);
+    transition: 1s;
+    /* border-radius: 5px; */
+}
+.navbar ul a:hover::after{
+    width: 100%;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////    Authentication    //// */
+
+
+
+.btn{
+    width: 287px;
+    height: 45px;
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(33,43,54);
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mod .smenu{
+    width: 287px;
+    height: 45px;
+    /* border: 1px solid black; */
+    
+    font-family: Inter, sans-serif;
+    color: rgb(145,158,171);
+    text-decoration: none;
+    letter-spacing:1px;
+    margin-left: 40px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+
+
+/* .mod #m6, #m7, #m8 {
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+} */
+
+.mod{
+    padding: 8px 8px;
+}
+
+
+.accordion-a2::after{
+    content: "";
+ 
+    width: 287px;
+    height: 45px;
+    color: rgb(145,158,171);
+    background-color: rgb(33,43,54);
+    transition: 1s;
+    /* border-radius: 5px; */
+}
+.accordion-a2:hover::after{
+    width: 100%;
+    color: white;
+    transition: 1s;
+}
+
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////this is accordion-a3//// */
+
+
+
+/* 
+.accordion-a3{
+    width: 287px;
+    height: 45px;
+    border: 1px solid black;
+    margin-top: ;
+} */
+
+
+
+
+
+
+
+/* ^^ This is End of side-bar ^^  */
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+
+/* ///////This is start of main contain.///////  */
+
+
+
+
+
+
+
+
+/* .main-pages{
+    width: 100%;
+    height: 240px;
+    border: 1px solid black;
+    background-color: rgb(98,75,255);
+    margin-top: 75px;
+    display: flex;
+    position: relative;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-contain{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+    background-color: aqua;
+    /* border-radius: 10px 10px 10px 10px; */
+    /* margin-top: 75px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.projects-btn{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: rgb(98,75,255);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p-btn{
+    width: 96%;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.projects{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+}
+
+.create-new-projects{
+    width: 175px;
+    height: 42px;
+    border: 1px solid black;
+}
+
+.btn-1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 12px 12px 12px 12px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .a1, .a2, .a3, .a4{
+    width: 23.5%;
+    height: 175px;
+    border: 1px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////This is end of main contain./////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+/* \/\/ This is Jquery \/\/ */
+
+
+
+
+
+
+.navbar{
+    width: 85%;
+    transition: 0.4s;
+    margin-left: 15%;
+}
+
+
+
+
+
+
+/* .main-abc{
+    width: 85%;
+    transition: 0.4s;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.side{
+   margin-left: 0%;
+   transition: 0.4s;
+}
+
+
+
+
+
+
+/* /\/\ This is Jquery /\/\ */
+
+
+
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+

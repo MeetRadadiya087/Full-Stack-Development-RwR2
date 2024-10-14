@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Effects</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+
+.h1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+}
+
+
+.h2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    font-size: 25px;
+    float: left;
+}
+
+.h3{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-left: 40px;
+    float: left;
+}
+
+.h4{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 100px;
+    float: left;
+}
+
+
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+<body>
+
+    <center>
+
+        <div class="h1">
+
+            <h1>Mouse Enter Event</h1>
+    
+            <img src="https://javascript.info/article/mousemove-mouseover-mouseout-mouseenter-mouseleave/mouseover-bubble-nested.svg" alt="">
+    
+        </div>
+    
+        <div class="h2">
+    
+            <p>Click Event</p>
+
+            <img src="https://static.thenounproject.com/png/1549566-200.png" alt="">
+    
+        </div>
+    
+        <div class="h3">
+    
+            <h2>KeyPress Event</h2>
+    
+            <input type="text" id="h">
+
+            <img src="https://www.shutterstock.com/image-vector/vector-icon-keypress-260nw-1281694822.jpg" alt="">
+    
+        </div>
+    
+        <div class="h4">
+    
+            <h3>KeyDown Event</h3>
+    
+            <input type="text" id="a1">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBroIETA63MHBWfDElt1DE9FXG3NwfKgVurw&usqp=CAU" alt="">
+    
+        </div>
+        
+
+    </center>
+    <div class="h5" style="background-color: black; width: 250px; margin-top: 1000px; height : 250px;" >
+    </div>
+    <div class="h6" style="width: 100px; height: 100px; background-color: aqua"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae eaque blanditiis, amet beatae nemo? Maxime ipsum possimus quisquam itaque laudantium veritatis eaque obcaecati labore nesciunt iure atque, amet impedit.</p></div>
+
+</body>
+</html>
+
+
+
+<script>
+
+$(document).ready(function(){
+
+    $(".h1").mouseenter(function(){
+      $("h1").css("background-color","red");
+    });
+
+    $(".h1").mouseleave(function(){
+      $("h1").css("background-color","white");
+    });
+
+
+
+
+    $(".h2").click(function(){
+      $("p").css("background-color","green");
+    });
+
+    $(".h2").click(function(){
+      $("p").css("background-color","green");
+    });
+
+    $(".h2").dblclick(function(){
+      $("p").css("background-color","red");
+      $("p").css("font-weight","bolder");
+    });
+
+
+
+
+    $("#h").keypress(function(){
+      $("#h").css("background-color","green");
+    });
+
+    $("#h").keyup(function(){
+      $("#h").css("background-color","green");
+    });
+
+    $("#h").keyup(function(){
+      $("#h").css("background-color","red");
+      $("#h").css("font-weight","bolder");
+    });
+
+
+
+
+    $("#a1").keydown(function(){
+      $("#a1").css("background-color","green");
+    });
+
+    $("#a1").keyup(function(){
+      $("#a1").css("background-color","green");
+    });
+
+    $("#a1").keyup(function(){
+      $("#a1").css("background-color","red");
+      $("#a1").css("font-weight","underline");
+    });
+    $(".h6").hide();
+    $(".h5").click(function(){
+      $(".h6").slideDown();
+    })
+
+
+
+});
+
+</script>
+
+
+
+

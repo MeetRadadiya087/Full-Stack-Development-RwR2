@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dash Ui</title>
+
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOcCDzPEUAfwrzqLe2flzMKhPmE-zscnU3Dg&usqp=CAU"
+        style="background-position: center; background-size: cover;">
+
+    <link rel="stylesheet" href="1st.dash-ui.admin-panel.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+    <nav>
+
+        <div class="left-1">
+
+            <div class="icon">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+            <div class="input-1">
+
+                <input type="text" placeholder="Search">
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="right-1">
+
+            <div class="bell-icon">
+
+                <i class="fa-regular fa-bell"></i>
+
+            </div>
+
+            <div class="img-icon">
+
+                <img src="https://dash-ui-admin-template.vercel.app/images/avatar/avatar-1.jpg" alt="">
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+
+    <div class="sidebar">
+
+        <!-- logo -->
+
+        <div class="img-1st">
+
+            <img src="https://dash-ui-admin-template.vercel.app/images/brand/logo/logo.svg" alt="">
+
+        </div>
+
+        <!-- ^^logo^^ -->
+
+
+
+
+
+
+
+        <!-- main-sidebar -->
+
+        <div class="a-dashboard">
+
+            <i class="ri-home-8-fill" style="width: 16px; height: 18px; color: white; margin-left: 20px;"></i>
+
+            <a href="https://dash-ui-admin-template.vercel.app/">
+
+                DASHBOARD
+
+            </a>
+
+        </div>
+
+        <div class="a-layouts-pages">
+
+            <a href="https://dash-ui-admin-template.vercel.app/">
+
+                LAYOUTS & PAGES
+
+            </a>
+
+        </div>
+
+        <div class="a-pages">
+
+
+
+
+            <div class="accordion-1">
+
+                <div class="accordion-a1">
+
+                    <button class="btn">
+
+                        <i class="fa-regular fa-file" style="padding-left: 20px;"></i>
+
+                        <h2 style="padding-left: 20px;">Pages</h2>
+
+                        <i class="fa-solid fa-angle-down" style="margin-left: 150px;"></i>
+
+                    </button>
+
+                    <div class="dis">
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m1">Profile</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m2">Setting</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m3">Billing</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m4">Pricing</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m5">404 Error</a>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                <div class="accordion-a2">
+
+                    <button class="btn">
+
+                        <i class="fa-solid fa-lock" style="padding-left: 20px;"></i>
+
+                        <h2 style="padding-left: 20px;">Authentication</h2>
+
+                        <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+
+                    </button>
+
+                    <div class="dis">
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m6">Sign in</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m7">Sign up</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m8">Forgot Password</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <!-- This is Layouts -->
+
+
+
+                <div class="accordion-a3">
+
+                    <button class="btn">
+
+                        <i class="fa-solid fa-layer-group" style="padding-left: 15px;"></i>
+
+                        <h2 style="padding-left: 18px;">Layouts</h2>
+
+                    </button>
+
+                </div>
+
+
+                <!-- ^^ This is Layouts ^^ -->
+
+
+
+                <!-- \/\/ This is UI COMPONENTS \/\/ -->
+
+
+
+                <div class="a-layouts-pages">
+
+                    <a href="https://dash-ui-admin-template.vercel.app/">
+        
+                        UI COMPONENTS
+                        
+                    </a>
+        
+                </div>
+
+
+
+                <!-- /\/\ This is UI COMPONENTS /\/\ -->
+
+
+
+
+
+                <!-- \/\/ This is COMPONENTS \/\/ -->
+
+
+
+
+                <div class="accordion-a4">
+
+                    <button class="btn">
+
+                        <i class="fa-solid fa-lock" style="padding-left: 20px;"></i>
+
+                        <h2 style="padding-left: 20px;">Components</h2>
+
+                        <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+
+                    </button>
+
+                    <div class="dis">
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m9">Accordions</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m10">Alerts</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m11">Badges</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m12">Breadcrumbs</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m13">Buttons</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m14">ButtonGroup</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m15">Cards</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m16">Carousel</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Close Button</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Collapse</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Dropdowns</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Listgroup</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Modal</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Navs</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Navbar</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Offcanvas</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Overlays</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Pagination</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Popovers</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Progress</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Spinners</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Tables</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Toasts</a>
+
+                        </div>
+
+                        <div class="mod">
+
+                            <a href="" class="smenu" id="m17">Tooltips</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+                <!-- /\/\ This is COMPONENTS /\/\ -->
+
+
+
+
+                <!-- \/\/ This is Menu Level \/\/ -->
+
+
+
+
+
+                <div class="accordion-a4">
+
+                    <button class="btn">
+
+                        <i class="fa-solid fa-lock" style="padding-left: 20px;"></i>
+
+                        <h2 style="padding-left: 20px;">Menu Level</h2>
+
+                        <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+
+                    </button>
+
+                    <div class="dis">
+
+                        <div class="dis">
+
+                            <button class="btn">
+
+                                <h2 style="padding-left: 20px;">Two Level</h2>
+
+                                <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+
+                            </button>
+
+                            <div class="mod">
+
+                                <a href="" class="smenu" id="m9">Navitem 1</a>
+    
+                            </div>
+    
+                            <div class="mod">
+    
+                                <a href="" class="smenu" id="m10">Navitem 2</a>
+    
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <div class="dis">
+
+                            <button class="btn">
+
+                                <h2 style="padding-left: 20px;">Three Level</h2>
+
+                                <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+
+
+
+                                <div class="Navitem-1">
+
+                                    <button class="btn">
+
+                                        <h2 style="padding-left: 20px;">Three Level</h2>
+        
+                                        <i class="fa-solid fa-angle-down" style="margin-left: 68px;"></i>
+        
+                                    </button>
+
+                                    <div class="mod">
+
+                                        <a href="" class="smenu" id="m11">Navchilditem 1</a>
+            
+                                    </div>
+            
+                                    <div class="mod">
+            
+                                        <a href="" class="smenu" id="m12">Navchilditem 2</a>
+            
+                                    </div>
+
+                                </div>
+
+                            </button>
+
+                            <div class="mod">
+
+                                <a href="" class="smenu" id="m11">Navitem 1</a>
+    
+                            </div>
+    
+                            <div class="mod">
+    
+                                <a href="" class="smenu" id="m12">Navitem 2</a>
+    
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+
+
+
+
+                <!-- /\/\ This is Menu Level /\/\ -->
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- \/\/ Headder \/\/ -->
+
+
+
+
+    
+
+    <!-- <div class="main-project">
+
+        <div class="pages">
+
+            <div class="projects">
+
+
+
+            </div>
+
+            <div class="create-new-project">
+
+                <button>Create New Project</button>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- /\/\ Headder /\/\ -->
+
+
+
+
+
+
+    <div class="main-contain">
+
+        <div class="projects-btn">
+
+            <div class="p-btn">
+
+                <div class="projects">
+
+                    <h2>Projects</h2>
+
+                </div>
+
+                <div class="create-new-projects">
+
+                    <button class="btn-1">Create New Projects</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+<script>
+
+    $(document).ready(function () {
+
+
+
+        $(".fa-bars").click(function () {
+            
+
+            $("nav").toggleClass("navbar");
+
+            $(".sidebar").toggleClass("side");
+
+        });
+
+
+
+
+        $(this).find(".btn").click(function () {
+
+            $(this).next(".dis").slideToggle(500);
+
+        });
+
+
+
+    })
+
+    // $(document).ready(function(){
+
+
+
+
+    // })
+
+
+
+
+</script>
